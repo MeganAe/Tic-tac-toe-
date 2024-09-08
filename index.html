@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+     <style>
+         .credits-bar {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+      </style>
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="game">
+      <header class="game_title">Tic Tac Toe</header>
+      <div class="current_player">Current Player: O</div>
+      <div class="game_container"></div>
+      <div class="score_board">
+        <div class="score_title">Score:</div>
+        <div class="o_wrapper">
+          <div class="score_label">O</div>
+          <div class="o_score"></div>
+        </div>
+        <div class="x_wrapper">
+          <div class="score_label">X</div>
+          <div class="x_score"></div>
+        </div>
+      </div>
+      <div class="game_message_container"></div>
+    </div>
+      <div class="credits-bar">
+    Created by <a href="https://facebook.com/MetoushelaWalker">metoushela</a></p>
+  </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
